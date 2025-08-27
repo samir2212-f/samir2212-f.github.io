@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tumunicipioapp</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Top Bar -->
+  <div class="w-full bg-emerald-700 text-white text-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-2 gap-4">
+      <div class="flex items-center gap-2"><i class="fa-solid fa-phone"></i><span>(073) 000000 • Serenazgo 24/7</span></div>
+      <div class="hidden md:flex items-center gap-4">
+        <a href="html1.html" class="hover:underline flex items-center gap-1"><i class="fa-solid fa-envelope"></i> Mesa de Partes</a>
+        <a href="html4.html" class="hover:underline flex items-center gap-1"><i class="fa-solid fa-file-lines"></i> Transparencia</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="html.html" class="flex items-center gap-3">
+        <div class="bg-emerald-700 text-white rounded-xl p-2 shadow-md"><i class="fa-solid fa-building"></i></div>
+        <div class="leading-tight">
+          <p class="text-sm text-slate-500">Municipalidad Distrital</p>
+          <h1 class="font-bold text-lg">26 de Octubre – Piura</h1>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="html.html" class="hover:text-emerald-700">Inicio</a>
+        <a href="html1.html" class="hover:text-emerald-700">Trámites</a>
+        <a href="html2.html" class="hover:text-emerald-700">Servicios</a>
+        <a href="html3.html" class="hover:text-emerald-700">Noticias</a>
+        <a href="html4.html" class="hover:text-emerald-700">Transparencia</a>
+        <a href="html5.html" class="hover:text-emerald-700">Contacto</a>
+      </nav>
+      <!-- Mobile menu button (visual only) -->
+      <a href="#menu" class="md:hidden p-2 rounded-xl border"><i class="fa-solid fa-bars"></i></a>
+    </div>
+  </header>
+
+  <!-- Mobile quick links -->
+  <div class="md:hidden max-w-7xl mx-auto px-4 py-3 grid grid-cols-2 gap-3">
+    <a href="html1.html" class="p-3 rounded-xl border bg-white text-center"><i class="fa-solid fa-file-pen"></i> Trámites</a>
+    <a href="html2.html" class="p-3 rounded-xl border bg-white text-center"><i class="fa-solid fa-building"></i> Servicios</a>
+    <a href="html3.html" class="p-3 rounded-xl border bg-white text-center"><i class="fa-solid fa-bullhorn"></i> Noticias</a>
+    <a href="html4.html" class="p-3 rounded-xl border bg-white text-center"><i class="fa-solid fa-file-lines"></i> Transparencia</a>
+    <a href="html5.html" class="p-3 rounded-xl border bg-white text-center col-span-2"><i class="fa-solid fa-envelope"></i> Contacto</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="max-w-7xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">
+          Juntos construimos un <span class="text-emerald-700">distrito ordenado y seguro</span>
+        </h2>
+        <p class="mt-4 text-slate-600 text-lg">
+          Información oficial, trámites en línea y servicios municipales para los vecinos de 26 de Octubre.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="html1.html" class="bg-emerald-700 text-white px-5 py-2 rounded-2xl shadow hover:bg-emerald-800"><i class="fa-solid fa-file-pen"></i> Trámites en línea</a>
+          <a href="html3.html" class="border px-5 py-2 rounded-2xl shadow hover:bg-emerald-50"><i class="fa-solid fa-bullhorn"></i> Últimas noticias</a>
+        </div>
+      </div>
+      <div>
+        <img src="https://www.cutivalu.pe/wp-content/uploads/2020/11/MPP-piura.jpg" class="rounded-2xl shadow-lg" alt="Distrito 26 de Octubre – Piura"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acceso rápido (botones bacanes) -->
+  <section class="py-12 bg-white border-t">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fa-solid fa-bolt text-emerald-700"></i> Acceso rápido</h3>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <a href="html1.html" class="group p-6 rounded-2xl border bg-slate-50 hover:border-emerald-600 hover:bg-white transition shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="p-3 rounded-xl bg-emerald-700 text-white"><i class="fa-solid fa-file-pen"></i></div>
+            <div>
+              <p class="font-semibold">Trámites</p>
+              <p class="text-sm text-slate-600">Predial, licencias, mesa de partes.</p>
+            </div>
+          </div>
+        </a>
+        <a href="html2.html" class="group p-6 rounded-2xl border bg-slate-50 hover:border-emerald-600 hover:bg-white transition shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="p-3 rounded-xl bg-emerald-700 text-white"><i class="fa-solid fa-building"></i></div>
+            <div>
+              <p class="font-semibold">Servicios</p>
+              <p class="text-sm text-slate-600">Limpieza, serenazgo, programas sociales.</p>
+            </div>
+          </div>
+        </a>
+        <a href="html3.html" class="group p-6 rounded-2xl border bg-slate-50 hover:border-emerald-600 hover:bg-white transition shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="p-3 rounded-xl bg-emerald-700 text-white"><i class="fa-solid fa-bullhorn"></i></div>
+            <div>
+              <p class="font-semibold">Noticias</p>
+              <p class="text-sm text-slate-600">Comunicados y actividades recientes.</p>
+            </div>
+          </div>
+        </a>
+        <a href="html4.html" class="group p-6 rounded-2xl border bg-slate-50 hover:border-emerald-600 hover:bg-white transition shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="p-3 rounded-xl bg-emerald-700 text-white"><i class="fa-solid fa-file-lines"></i></div>
+            <div>
+              <p class="font-semibold">Transparencia</p>
+              <p class="text-sm text-slate-600">Presupuesto, planes y normativas.</p>
+            </div>
+          </div>
+        </a>
+        <a href="html5.html" class="group p-6 rounded-2xl border bg-slate-50 hover:border-emerald-600 hover:bg-white transition shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="p-3 rounded-xl bg-emerald-700 text-white"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <p class="font-semibold">Contacto</p>
+              <p class="text-sm text-slate-600">Ubicación, horarios y formulario.</p>
+            </div>
+          </div>
+        </a>
+        <a href="html2.html#tributos" class="group p-6 rounded-2xl border bg-slate-50 hover:border-emerald-600 hover:bg-white transition shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="p-3 rounded-xl bg-emerald-700 text-white"><i class="fa-solid fa-coins"></i></div>
+            <div>
+              <p class="font-semibold">Pagos y tributos</p>
+              <p class="text-sm text-slate-600">Consulta y regulariza tus obligaciones.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Noticias destacadas preview -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fa-solid fa-newspaper text-emerald-700"></i> Noticias destacadas</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <article class="p-5 rounded-2xl border bg-white shadow-sm">
+          <p class="text-xs text-slate-500">Agosto 2025</p>
+          <h4 class="font-semibold mt-1">Campaña de limpieza y reciclaje</h4>
+          <p class="text-sm text-slate-600">Se intensifica la recolección diferenciada en zonas críticas del distrito.</p>
+          <a href="html3.html" class="inline-block mt-3 text-emerald-700 text-sm">Leer más</a>
+        </article>
+        <article class="p-5 rounded-2xl border bg-white shadow-sm">
+          <p class="text-xs text-slate-500">Agosto 2025</p>
+          <h4 class="font-semibold mt-1">Jornadas de salud preventiva</h4>
+          <p class="text-sm text-slate-600">Vacunación y descarte de anemia en coordinación con centros de salud.</p>
+          <a href="html3.html" class="inline-block mt-3 text-emerald-700 text-sm">Leer más</a>
+        </article>
+        <article class="p-5 rounded-2xl border bg-white shadow-sm">
+          <p class="text-xs text-slate-500">Agosto 2025</p>
+          <h4 class="font-semibold mt-1">Ordenamiento del comercio</h4>
+          <p class="text-sm text-slate-600">Formalización y reubicación progresiva del comercio ambulatorio.</p>
+          <a href="html3.html" class="inline-block mt-3 text-emerald-700 text-sm">Leer más</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Llamado a la transparencia -->
+  <section class="py-12 bg-white border-t">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div class="p-6 rounded-2xl border bg-slate-50">
+        <h3 class="text-xl font-bold mb-2">Transparencia y acceso a la información</h3>
+        <p class="text-slate-600">Consulta presupuesto, POI, ordenanzas y reportes de ejecución. Nuestro compromiso es rendir cuentas de forma permanente.</p>
+        <a href="html4.html" class="mt-4 inline-block bg-emerald-700 text-white px-5 py-2 rounded-2xl hover:bg-emerald-800"><i class="fa-solid fa-file-lines"></i> Ir a Transparencia</a>
+      </div>
+      <div class="p-6 rounded-2xl border bg-slate-50">
+        <h3 class="text-xl font-bold mb-2">¿Necesitas comunicarte?</h3>
+        <p class="text-slate-600">Encuentra la dirección, teléfonos y horarios de atención de nuestras oficinas. También puedes escribirnos mediante el formulario.</p>
+        <a href="html5.html" class="mt-4 inline-block border px-5 py-2 rounded-2xl hover:bg-emerald-50"><i class="fa-solid fa-envelope"></i> Ir a Contacto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm">
+      <div>
+        <div class="flex items-center gap-2">
+          <div class="bg-emerald-700 text-white rounded-xl p-2"><i class="fa-solid fa-building"></i></div>
+          <div>
+            <p class="text-xs text-slate-500">Municipalidad Distrital</p>
+            <p class="font-bold">26 de Octubre – Piura</p>
+          </div>
+        </div>
+        <p class="mt-3 text-slate-600">Portal web institucional de información y servicios para los vecinos y emprendedores del distrito.</p>
+      </div>
+      <div>
+        <p class="font-semibold mb-3">Enlaces útiles</p>
+        <ul class="space-y-2">
+          <li><a href="html1.html" class="hover:text-emerald-700">Trámites en línea</a></li>
+          <li><a href="html4.html" class="hover:text-emerald-700">Transparencia</a></li>
+          <li><a href="html2.html" class="hover:text-emerald-700">Servicios</a></li>
+          <li><a href="html3.html" class="hover:text-emerald-700">Noticias</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold mb-3">Atención</p>
+        <ul class="space-y-2 text-slate-700">
+          <li><i class="fa-solid fa-clock"></i> Lun–Vie 8:00–16:30</li>
+          <li><i class="fa-solid fa-phone"></i> (073) 000000</li>
+          <li><i class="fa-solid fa-envelope"></i> informes@muni26octubre.gob.pe</li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold mb-3">Redes sociales</p>
+        <div class="flex gap-3">
+          <a href="#" class="p-2 rounded-xl border hover:border-emerald-600"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="p-2 rounded-xl border hover:border-emerald-600"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="p-2 rounded-xl border hover:border-emerald-600"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white border-t">
+      <div class="max-w-7xl mx-auto px-4 py-4 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-3">
+        <p>© 2025 Municipalidad Distrital 26 de Octubre – Piura. Todos los derechos reservados.</p>
+        <a href="#" class="hover:text-emerald-700">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
