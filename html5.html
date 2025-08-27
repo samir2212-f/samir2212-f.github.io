@@ -31,9 +31,9 @@
     <h2 class="text-2xl font-bold mb-4">Formulario de contacto</h2>
     <!-- Formulario con FormSubmit -->
     <form action="https://formsubmit.co/heinner2212@gmail.com" method="POST" class="bg-white p-6 rounded shadow grid gap-4">
-      <input class="rounded-xl p-3 border" name="nombre" placeholder="Nombres y apellidos" required/>
-      <input class="rounded-xl p-3 border" name="correo" placeholder="Correo electrónico" type="email" required/>
-      <input class="rounded-xl p-3 border" name="telefono" placeholder="Teléfono" required/>
+      <input class="rounded-xl p-3 border" name="nombre" placeholder="Nombres y apellidos" required>
+      <input class="rounded-xl p-3 border" name="correo" placeholder="Correo electrónico" type="email" required>
+      <input class="rounded-xl p-3 border" name="telefono" placeholder="Teléfono" required>
       <textarea class="rounded-xl p-3 border h-28 resize-none" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
       
       <!-- Opcional: redirección después de enviar -->
@@ -41,7 +41,10 @@
       <!-- Opcional: desactivar captcha -->
       <input type="hidden" name="_captcha" value="false">
 
-      <button type="submit" class="bg-emerald-700 text-white py-2 rounded-xl">Enviar</button>
+      <!-- Botón de enviar -->
+      <button type="submit" class="bg-emerald-700 hover:bg-emerald-800 text-white py-3 rounded-xl font-semibold">
+        Enviar mensaje
+      </button>
     </form>
   </div>
 </main>
