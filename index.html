@@ -224,5 +224,17 @@
       </div>
     </div>
   </footer>
+  <script>
+    // Genera un QR con la URL de tu sitio
+    QRCode.toCanvas(
+      document.getElementById("codigoQR"), 
+      "https://samir2212-f.github.io/", 
+      function (error) {
+        if (error) console.error(error);
+        console.log("¡QR generado!");
+      }
+    );
+  </script>
 </body>
 </html>
+
