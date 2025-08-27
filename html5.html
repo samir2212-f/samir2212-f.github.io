@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -29,9 +29,23 @@
 
   <div>
     <h2 class="text-2xl font-bold mb-4">Formulario de contacto</h2>
-    <form class="bg-white p-6 rounded shadow grid gap-4">
-      <input class="rounded-xl p-3 border" placeholder="Nombres y apellidos" required/>
-      <input class="rounded-xl p-3 border" placeholder="Correo electrónico" type="email" required/>
-      <input class="rounded-xl p-3 border" placeholder="Teléfono" required/>
-      <textarea class="rounded-xl p-3 border h-28 resize-none" placeholder="Escriba su mensaje" required></textarea>
-      <button type="submit" class="bg-emer
+    <!-- Formulario con FormSubmit -->
+    <form action="https://formsubmit.co/heinner2212@gmail.com" method="POST" class="bg-white p-6 rounded shadow grid gap-4">
+      <input class="rounded-xl p-3 border" name="nombre" placeholder="Nombres y apellidos" required/>
+      <input class="rounded-xl p-3 border" name="correo" placeholder="Correo electrónico" type="email" required/>
+      <input class="rounded-xl p-3 border" name="telefono" placeholder="Teléfono" required/>
+      <textarea class="rounded-xl p-3 border h-28 resize-none" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+      
+      <!-- Opcional: redirección después de enviar -->
+      <input type="hidden" name="_next" value="https://tu-pagina.com/gracias.html">
+      <!-- Opcional: desactivar captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit" class="bg-emerald-700 text-white py-2 rounded-xl">Enviar</button>
+    </form>
+  </div>
+</main>
+
+</body>
+</html>
+
